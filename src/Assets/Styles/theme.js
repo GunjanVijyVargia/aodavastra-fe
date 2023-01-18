@@ -13,7 +13,8 @@ const theme = {
     orangeLight: '#FFBFB2',
     orangeDark: '#FF7C61',
     purple: '#7A628F',
-    redPrimary: "#D83B3B"
+    redPrimary: "#D83B3B",
+    Cosmos:'#FFD5CC'
 }
 
 export default theme
