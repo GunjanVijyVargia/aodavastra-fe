@@ -10,9 +10,6 @@ import Img from '../../Assets/Images/Rectangle 88.png'
 import _ from 'lodash'
 const AddedToCart = () => {
     const [state, setState] = useState(0)
-
-
-
     return (
         <>
             <Box
@@ -95,17 +92,16 @@ const AddedToCart = () => {
                                 <Typography sx={{ fontSize: '16px', color: theme.lightBlack, fontWeight: 400, lineHeight: '27px' }}>Keep the allure of traditional artistry alive and ablaze with these ornately crafted stud earrings.
                                     This pair is the perfect match to your heirloom sarees.</Typography>
                             </Box>
-                            <Box >
+                            <Box mt={2}>
                                 <Button sx={{ width: '200px', border: `1px solid ${theme.lightBlack}`, color: '#3C3C3CB2', marginTop: '18px', borderRadius: '0px', fontSize: '16px', textTransform: 'capitalize' }}>Enter Pincode</Button>
                                 <Button sx={{ width: '200px', background: theme.primaryColor, color: theme.lightBlack, marginTop: '18px', borderRadius: '0px', fontSize: '16px', textTransform: 'capitalize', '&:hover': { background: theme.primaryColor } }}>Check Availability</Button>
                             </Box>
                         </Grid>
                     </Grid>
                     <Box >
-                        <Typography sx={{ fontSize: '24px', color: theme.lightBlack, mt: 4 }}>You may also like</Typography>
+                        <Typography sx={{ fontSize: '24px', color: theme.lightBlack, mt: 2 }}>You may also like</Typography>
                     </Box>
                     <Grid container columnSpacing={1} >
-
                         {_.times(5, (i) => (
                             <Grid item lg={2.3} >
                                 <Box sx={{ width: '200px', height: '240px' }}>
