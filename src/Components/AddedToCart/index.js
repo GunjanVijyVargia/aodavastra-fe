@@ -44,7 +44,7 @@ const AddedToCart = () => {
                                                 <img src={Img} alt='' style={{ width: '100%', height: '100%' }} />
                                             </>
                                         ) : <>
-                                        <img src={bangleImg} alt='' style={{ width: '100%', height: '100%' }} />
+                                            <img src={bangleImg} alt='' style={{ width: '100%', height: '100%' }} />
                                         </>}
                                     </Box>
                                     <Box display='block'>
@@ -102,7 +102,7 @@ const AddedToCart = () => {
                         </Grid>
                     </Grid>
                     <Box >
-                        <Typography sx={{ fontSize: '24px', color: theme.lightBlack, mt: 1 }}>You may also like</Typography>
+                        <Typography sx={{ fontSize: '24px', color: theme.lightBlack, mt: 4 }}>You may also like</Typography>
                     </Box>
                     <Grid container columnSpacing={1} >
 
