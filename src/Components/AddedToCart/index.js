@@ -8,6 +8,9 @@ import theme from '../../Assets/Styles/theme';
 import bangleImg from '../../Assets/Images/Rectangle 292 (1).png'
 import Img from '../../Assets/Images/Rectangle 88.png'
 import _ from 'lodash'
+
+import {ProductHeading} from '../../Utils/Common/component'
+
 const AddedToCart = () => {
     const [state, setState] = useState(0)
     return (
@@ -52,7 +55,7 @@ const AddedToCart = () => {
                             </Box>
                         </Grid>
                         <Grid item lg={5}>
-                            <Typography sx={{ color: theme.lightBlack, fontSize: '36px', fontWeight: 600, lineHeight: '54px' }}>American Diamond Bangles</Typography>
+                            <ProductHeading >American Diamond Bangles</ProductHeading>
                             <Typography sx={{ color: theme.lightBlack, fontSize: '14px', lineHeight: '40px', textTransform: 'uppercase' }}>Sold by- Drapes by Rashmi</Typography>
                             <Typography sx={{ color: theme.lightBlack, fontSize: '28px', fontWeight: 600, lineHeight: '42px' }}>A₹ 999.00</Typography>
                             <Grid container>

@@ -16,6 +16,9 @@ import { toast } from "react-toastify";
 import { api_base_url } from "../../Utils/Common/urls";
 import '../index.scss'
 
+
+
+
 const ConfirmPassword = () => {
     const navigate = useNavigate();
     let { token } = useParams();

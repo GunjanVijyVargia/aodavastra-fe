@@ -28,6 +28,7 @@ const AddressAction = lazy(() =>
 );
 const Wishlist = lazy(() => import("../Components/Wishlist"));
 const Address = lazy(() => import("../Components/Addresses"));
+const AddedToCart = lazy(() => import("../Components/AddedToCart"));
 
 const masterComponent = () => {
   return (
@@ -99,6 +100,10 @@ const masterComponent = () => {
           <Route
             path="/emptybag"
             element={<PrivateRoute component={<EmptyBag />} />}
+          ></Route>
+          <Route
+            path="/add-to-cart"
+            element={<PublicRoute component={<AddedToCart />} />}
           ></Route>
           <Route
             path="/"

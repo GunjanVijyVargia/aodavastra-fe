@@ -85,4 +85,13 @@ export const BoldHeading = styled.span`
     font-size: 24px;
     line-height: 36px;
     color:${theme.lightBlack};
+
+    
+`
+export const ProductHeading = styled.span`
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color:${theme.lightBlack};
 `
