@@ -1,0 +1,18 @@
+@import "../../Assets/Styles/theme.scss";
+.creator_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  color: $lightBlack;
+  padding: 34px 27px 0px 27px;
+}
+.creator_text {
+  padding: 56px 242px;
+  span {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+}

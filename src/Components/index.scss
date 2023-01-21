@@ -148,14 +148,14 @@
 
 .become_creator {
   background: $becomeRadientColor;
-  width: 450px;
+  width: 466px;
   height: 55.96px;
   border-radius: 9.5102px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-  bottom: 30px;
+  // position: absolute;
+  margin-top: 60px;
   p {
     font-family: "Poppins";
     font-style: normal;
