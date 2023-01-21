@@ -22,6 +22,15 @@ export const PrimaryButton = styled(Button)`
     font-size: 19.1045px;
     margin-top: 12px;
 `
+export const RegularButton = styled(Button)`
+    border: 1px solid #3C3C3C !important;
+    color:#3C3C3C !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 36px;
+    font-size: 24px;
+    margin-Top:12px;
+`
 export const PrimaryText = styled.span`
     font-family: 'Poppins';
     font-style: normal;
@@ -43,11 +52,17 @@ export const OrderConatiner = styled.div`
 export const PurpleText = styled.span`
     font-style: normal;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: ${theme.purple};
+`
+export const PurpleTextLight = styled.span`
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: ${theme.purple};
 `
-
 export const BoldText = styled.span`
     font-style: normal;
     font-weight: 500;
@@ -86,3 +101,12 @@ export const BoldHeading = styled.span`
     line-height: 36px;
     color:${theme.lightBlack};
 `
+export const ProductHeading = styled.span`
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color:${theme.lightBlack};
+`
+
+
