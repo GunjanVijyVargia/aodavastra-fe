@@ -7,14 +7,14 @@ import PublicRoute from "../Routes/Public";
 import PrivateRoute from "../Routes/Private";
 import { Grid } from "@mui/material";
 import EmptyBag from "../Components/EmptyBag";
-
+const AddedToCart = lazy(() => import('../Components/AddedToCart'));
 const SignUpComponent = lazy(() => import("../Components/SignUp"));
 const Login = lazy(() => import("../Components/Login"));
 const RecoverComponent = lazy(() =>
   import("../Components/Login/recoverPassword")
 );
 const ConfirmPassword = lazy(() =>
-  import("../Components/Login/confirmPassword")
+  import("../Components/Login/ConfirmPassword")
 );
 const Home = lazy(() => import("../Components/Home"));
 const Profile = lazy(() => import("../Components/Profile"));
@@ -109,6 +109,7 @@ const masterComponent = () => {
             path="/"
             element={<PrivateRoute component={<Home />} />}
           ></Route>
+            <Route path="/list" element={<PrivateRoute component={<AddedToCart />} />}></Route>
         </Routes>
       </Suspense>
       <ToastContainer />
